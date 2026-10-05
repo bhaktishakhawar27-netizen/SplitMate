@@ -1,0 +1,259 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.splitmate"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="24"
+8-->INJECTED
+9        android:targetSdkVersion="36" />
+9-->INJECTED
+10
+11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+11-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:5:5-77
+11-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:5:22-74
+12
+13    <permission
+13-->[androidx.core:core:1.18.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\cc6003acdc5b99cad785fce452911310\transformed\core-1.18.0\AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.splitmate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.18.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\cc6003acdc5b99cad785fce452911310\transformed\core-1.18.0\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.18.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\cc6003acdc5b99cad785fce452911310\transformed\core-1.18.0\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.example.splitmate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.18.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\cc6003acdc5b99cad785fce452911310\transformed\core-1.18.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.18.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\cc6003acdc5b99cad785fce452911310\transformed\core-1.18.0\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:7:5-87:19
+20        android:allowBackup="true"
+20-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:8:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.18.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\cc6003acdc5b99cad785fce452911310\transformed\core-1.18.0\AndroidManifest.xml:28:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:9:9-65
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+24-->INJECTED
+25        android:fullBackupContent="@xml/backup_rules"
+25-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:10:9-54
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:11:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:12:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:13:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:14:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.SplitMate" >
+31-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:15:9-47
+32        <activity
+32-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:16:9-25:20
+33            android:name="com.example.splitmate.MainActivity"
+33-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:17:13-41
+34            android:exported="true"
+34-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:18:13-36
+35            android:windowSoftInputMode="adjustResize" >
+35-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:19:13-55
+36            <intent-filter>
+36-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:20:13-24:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:21:17-69
+37-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:21:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:23:17-77
+39-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:23:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:26:9-29:58
+43            android:name="com.example.splitmate.LoginActivity"
+43-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:27:13-42
+44            android:exported="false"
+44-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:28:13-37
+45            android:windowSoftInputMode="adjustResize" />
+45-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:29:13-55
+46        <activity
+46-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:30:9-33:58
+47            android:name="com.example.splitmate.RegisterActivity"
+47-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:31:13-45
+48            android:exported="false"
+48-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:32:13-37
+49            android:windowSoftInputMode="adjustResize" />
+49-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:33:13-55
+50        <activity
+50-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:34:9-37:58
+51            android:name="com.example.splitmate.HomeActivity"
+51-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:35:13-41
+52            android:exported="false"
+52-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:36:13-37
+53            android:windowSoftInputMode="adjustResize" />
+53-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:37:13-55
+54        <activity
+54-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:38:9-41:58
+55            android:name="com.example.splitmate.AddExpenseActivity"
+55-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:39:13-47
+56            android:exported="false"
+56-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:40:13-37
+57            android:windowSoftInputMode="adjustResize" />
+57-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:41:13-55
+58        <activity
+58-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:42:9-45:58
+59            android:name="com.example.splitmate.SplitBillActivity"
+59-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:43:13-46
+60            android:exported="false"
+60-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:44:13-37
+61            android:windowSoftInputMode="adjustResize" />
+61-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:45:13-55
+62        <activity
+62-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:46:9-49:58
+63            android:name="com.example.splitmate.AllExpensesActivity"
+63-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:47:13-48
+64            android:exported="false"
+64-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:48:13-37
+65            android:windowSoftInputMode="adjustResize" />
+65-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:49:13-55
+66        <activity
+66-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:50:9-53:58
+67            android:name="com.example.splitmate.SplitBillHistoryActivity"
+67-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:51:13-53
+68            android:exported="false"
+68-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:52:13-37
+69            android:windowSoftInputMode="adjustResize" />
+69-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:53:13-55
+70        <activity
+70-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:54:9-57:58
+71            android:name="com.example.splitmate.MonthlyDataActivity"
+71-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:55:13-48
+72            android:exported="false"
+72-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:56:13-37
+73            android:windowSoftInputMode="adjustResize" />
+73-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:57:13-55
+74        <activity
+74-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:58:9-61:58
+75            android:name="com.example.splitmate.CategoryDetailsActivity"
+75-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:59:13-52
+76            android:exported="false"
+76-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:60:13-37
+77            android:windowSoftInputMode="adjustResize" />
+77-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:61:13-55
+78        <activity
+78-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:62:9-65:58
+79            android:name="com.example.splitmate.PaymentHistoryActivity"
+79-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:63:13-51
+80            android:exported="false"
+80-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:64:13-37
+81            android:windowSoftInputMode="adjustResize" />
+81-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:65:13-55
+82        <activity
+82-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:66:9-69:58
+83            android:name="com.example.splitmate.PaymentReminderActivity"
+83-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:67:13-52
+84            android:exported="false"
+84-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:68:13-37
+85            android:windowSoftInputMode="adjustResize" />
+85-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:69:13-55
+86        <activity
+86-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:70:9-73:58
+87            android:name="com.example.splitmate.SavingsGoalActivity"
+87-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:71:13-48
+88            android:exported="false"
+88-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:72:13-37
+89            android:windowSoftInputMode="adjustResize" />
+89-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:73:13-55
+90        <activity
+90-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:74:9-77:58
+91            android:name="com.example.splitmate.TodoActivity"
+91-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:75:13-41
+92            android:exported="false"
+92-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:76:13-37
+93            android:windowSoftInputMode="adjustResize" />
+93-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:77:13-55
+94        <activity
+94-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:79:9-82:58
+95            android:name="com.example.splitmate.ProfileActivity"
+95-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:80:13-44
+96            android:exported="false"
+96-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:81:13-37
+97            android:windowSoftInputMode="adjustResize" />
+97-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:82:13-55
+98
+99        <receiver
+99-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:84:9-86:40
+100            android:name="com.example.splitmate.ReminderReceiver"
+100-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:85:13-45
+101            android:exported="false" />
+101-->C:\Users\LENONO\AndroidStudioProjects\mad_bhakti\MAD_FINAL_PROJECT\splitmate_updated\app\src\main\AndroidManifest.xml:86:13-37
+102
+103        <provider
+103-->[androidx.emoji2:emoji2:1.3.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\4d9c3a88b22043cd13482fa7ce8cc109\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+104            android:name="androidx.startup.InitializationProvider"
+104-->[androidx.emoji2:emoji2:1.3.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\4d9c3a88b22043cd13482fa7ce8cc109\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+105            android:authorities="com.example.splitmate.androidx-startup"
+105-->[androidx.emoji2:emoji2:1.3.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\4d9c3a88b22043cd13482fa7ce8cc109\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+106            android:exported="false" >
+106-->[androidx.emoji2:emoji2:1.3.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\4d9c3a88b22043cd13482fa7ce8cc109\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+107            <meta-data
+107-->[androidx.emoji2:emoji2:1.3.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\4d9c3a88b22043cd13482fa7ce8cc109\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+108                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+108-->[androidx.emoji2:emoji2:1.3.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\4d9c3a88b22043cd13482fa7ce8cc109\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+109                android:value="androidx.startup" />
+109-->[androidx.emoji2:emoji2:1.3.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\4d9c3a88b22043cd13482fa7ce8cc109\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+110            <meta-data
+110-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\90eb3ede4122ac609054e427aad776ef\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+111                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+111-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\90eb3ede4122ac609054e427aad776ef\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+112                android:value="androidx.startup" />
+112-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\90eb3ede4122ac609054e427aad776ef\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+113            <meta-data
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+114                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+115                android:value="androidx.startup" />
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+116        </provider>
+117
+118        <receiver
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+119            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+120            android:directBootAware="false"
+120-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+121            android:enabled="true"
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+122            android:exported="true"
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+123            android:permission="android.permission.DUMP" >
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+124            <intent-filter>
+124-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+125                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+125-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+125-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+126            </intent-filter>
+127            <intent-filter>
+127-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+128                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+128-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+128-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+129            </intent-filter>
+130            <intent-filter>
+130-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+131                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+131-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+131-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+132            </intent-filter>
+133            <intent-filter>
+133-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+134                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+134-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+134-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENONO\.gradle\caches\9.5.0\transforms\335133ea2f9c6de22159e6434256a9ea\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+135            </intent-filter>
+136        </receiver>
+137    </application>
+138
+139</manifest>

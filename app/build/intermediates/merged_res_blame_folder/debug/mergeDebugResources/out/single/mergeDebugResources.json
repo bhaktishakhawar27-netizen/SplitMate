@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "com.example.splitmate.app-debug-40:/layout_activity_todo.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/layout/activity_todo.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/layout_activity_payment_reminder.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/layout/activity_payment_reminder.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.splitmate.app-main-42:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/drawable_img.png.flat",
+        "source": "com.example.splitmate.app-main-42:/drawable/img.png"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.splitmate.app-main-42:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/layout_activity_register.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.splitmate.app-main-42:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/drawable_scrollbar_thumb.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/drawable/scrollbar_thumb.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.splitmate.app-main-42:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.splitmate.app-main-42:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/layout_activity_monthly_data.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/layout/activity_monthly_data.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/layout_activity_savings_goal.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/layout/activity_savings_goal.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/layout_nav_header_home.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/layout/nav_header_home.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/drawable_bg_avatar_circle.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/drawable/bg_avatar_circle.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.splitmate.app-main-42:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.splitmate.app-main-42:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.splitmate.app-main-42:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/layout_activity_add_expense.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/layout/activity_add_expense.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/layout_activity_login.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/layout_activity_profile.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/xml_backup_rules.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.splitmate.app-main-42:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/layout_activity_all_expenses.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/layout/activity_all_expenses.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/menu_menu_drawer.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/menu/menu_drawer.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.splitmate.app-main-42:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/layout_activity_payment_history.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/layout/activity_payment_history.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.splitmate.app-main-42:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/layout_activity_category_details.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/layout/activity_category_details.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/layout_activity_home.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.splitmate.app-main-42:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/layout_activity_split_bill.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/layout/activity_split_bill.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.splitmate.app-main-42:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.splitmate.app-main-42:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/layout_activity_split_bill_history.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/layout/activity_split_bill_history.xml"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.splitmate.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.splitmate.app-debug-40:/layout_activity_main.xml.flat",
+        "source": "com.example.splitmate.app-main-42:/layout/activity_main.xml"
+    }
+]

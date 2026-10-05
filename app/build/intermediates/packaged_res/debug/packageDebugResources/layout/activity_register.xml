@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7F7"
+    android:fillViewport="true"
+        android:fadeScrollbars="true"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbarThumbVertical="@drawable/scrollbar_thumb">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="28dp"
+        android:paddingBottom="30dp">
+
+
+        <!-- Header -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create your account ✦"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:textColor="#202124" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A little setup. A lot less money stress."
+            android:textSize="14sp"
+            android:textColor="#6B7275"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="28dp" />
+
+
+        <!-- Name -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FULL NAME"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#202124" />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:hint="Your name"
+            android:textSize="15sp"
+            android:padding="14dp"
+            android:backgroundTint="#AEB5B7"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp" />
+
+
+        <!-- Email -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EMAIL"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#202124" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:hint="you@example.com"
+            android:inputType="textEmailAddress"
+            android:textSize="15sp"
+            android:padding="14dp"
+            android:backgroundTint="#AEB5B7"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp" />
+
+
+        <!-- College -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COLLEGE"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#202124" />
+
+        <EditText
+            android:id="@+id/collegeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:hint="College name"
+            android:textSize="15sp"
+            android:padding="14dp"
+            android:backgroundTint="#AEB5B7"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp" />
+
+
+        <!-- Course -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COURSE"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#202124" />
+
+        <EditText
+            android:id="@+id/courseEditText"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:hint="e.g. Computer Engineering"
+            android:textSize="15sp"
+            android:padding="14dp"
+            android:backgroundTint="#AEB5B7"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp" />
+
+
+        <!-- Budget -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MONTHLY POCKET MONEY / BUDGET"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#202124" />
+
+        <EditText
+            android:id="@+id/budgetEditText"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:hint="e.g. ₹5000"
+            android:inputType="numberDecimal"
+            android:textSize="15sp"
+            android:padding="14dp"
+            android:backgroundTint="#AEB5B7"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp" />
+
+
+        <!-- Password -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PASSWORD"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#202124" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:hint="Minimum 6 characters"
+            android:inputType="textPassword"
+            android:textSize="15sp"
+            android:padding="14dp"
+            android:backgroundTint="#AEB5B7"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp" />
+
+
+        <!-- Confirm Password -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONFIRM PASSWORD"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#202124" />
+
+        <EditText
+            android:id="@+id/confirmPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:hint="Enter password again"
+            android:inputType="textPassword"
+            android:textSize="15sp"
+            android:padding="14dp"
+            android:backgroundTint="#AEB5B7"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="24dp" />
+
+
+        <!-- Create Account -->
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="CREATE ACCOUNT  →"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#202124"
+            android:backgroundTint="#5EEAD4" />
+
+
+        <!-- Login -->
+
+        <TextView
+            android:id="@+id/loginText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?  Login"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#238F83"
+            android:layout_gravity="center_horizontal"
+            android:padding="15dp"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</ScrollView>

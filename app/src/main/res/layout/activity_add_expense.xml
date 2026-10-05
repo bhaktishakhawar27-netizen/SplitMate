@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7F7"
+    android:fillViewport="true"
+        android:fadeScrollbars="true"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbarThumbVertical="@drawable/scrollbar_thumb">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- TOP HEADER -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/menuButton"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="☰"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#202124"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackgroundBorderless" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Add Expense 💸"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#202124" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keep track of where your money goes."
+            android:textSize="14sp"
+            android:textColor="#6B7275"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp" />
+
+
+        <!-- AMOUNT -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AMOUNT"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#202124" />
+
+        <EditText
+            android:id="@+id/amountEditText"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="₹ 0.00"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:backgroundTint="#5EEAD4"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="22dp" />
+
+
+        <!-- CATEGORY -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CATEGORY"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#202124" />
+
+        <Spinner
+            android:id="@+id/categorySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="10dp" />
+
+
+        <!-- OTHER CATEGORY LABEL -->
+
+        <TextView
+            android:id="@+id/otherCategoryLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OTHER CATEGORY NAME"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#202124"
+            android:visibility="gone" />
+
+
+        <!-- OTHER CATEGORY INPUT -->
+
+        <EditText
+            android:id="@+id/otherCategoryEditText"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:hint="e.g. Stationery"
+            android:inputType="textCapSentences"
+            android:textSize="15sp"
+            android:padding="14dp"
+            android:backgroundTint="#AEB5B7"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="22dp"
+            android:visibility="gone" />
+
+
+        <!-- EXPENSE DATE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXPENSE DATE"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#202124" />
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textSize="16sp"
+            android:textColor="#202124"
+            android:background="#FFFFFF"
+            android:drawableEnd="@android:drawable/ic_menu_my_calendar"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="22dp" />
+
+
+        <!-- DESCRIPTION -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPTION"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#202124" />
+
+        <EditText
+            android:id="@+id/descriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:hint="What did you spend on?"
+            android:gravity="top"
+            android:inputType="textCapSentences|textMultiLine"
+            android:textSize="15sp"
+            android:padding="15dp"
+            android:backgroundTint="#AEB5B7"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="30dp" />
+
+
+        <!-- SAVE -->
+
+        <Button
+            android:id="@+id/saveExpenseButton"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="SAVE EXPENSE  →"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#202124"
+            android:backgroundTint="#5EEAD4" />
+
+    </LinearLayout>
+
+</ScrollView>

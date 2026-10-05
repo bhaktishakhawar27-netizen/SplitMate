@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Account" />
+
+        <item
+            android:id="@+id/nav_payment_history"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Payment History" />
+
+        <item
+            android:id="@+id/nav_monthly_data"
+            android:icon="@android:drawable/ic_menu_month"
+            android:title="Monthly Data" />
+
+        <item
+            android:id="@+id/nav_all_expenses"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="All Expenses" />
+
+        <item
+            android:id="@+id/nav_split_bill_history"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="Split Bill History" />
+
+    </group>
+
+    <item android:title="Tools">
+        <menu>
+
+            <item
+                android:id="@+id/nav_payment_reminder"
+                android:icon="@android:drawable/ic_popup_reminder"
+                android:title="Payment Reminder" />
+
+            <item
+                android:id="@+id/nav_savings_goal"
+                android:icon="@android:drawable/btn_star_big_on"
+                android:title="Savings Goal" />
+
+            <item
+                android:id="@+id/nav_todo"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="To-Do List" />
+
+        </menu>
+    </item>
+
+    <item android:title="Settings">
+        <menu>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SplitMate" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Forced to Light (not DayNight): every screen uses hardcoded
+             light colors, so following system dark mode made EditText
+             text/hints render light-on-white and look "too faint". -->
+        <item name="android:textColorPrimary">#202124</item>
+        <item name="android:textColor">#202124</item>
+        <item name="android:editTextColor">#202124</item>
+        <item name="android:textColorHint">#8A9096</item>
+    </style>
+
+    <style name="Theme.SplitMate" parent="Base.Theme.SplitMate" />
+</resources>
